@@ -1,11 +1,3 @@
-# DustAhead / HaboobCast — Python dependencies (Python 3.11)
-#
-# PyTorch is NOT listed here: install it first with the CUDA build that matches
-# the cluster driver (Explorer V100, driver 545 / CUDA 12.3):
-#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
-# then:
-#   pip install -r requirements.txt
-
 # --- Core scientific stack ---
 numpy>=1.26
 pandas>=2.2
